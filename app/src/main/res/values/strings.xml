@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MsgShareApp</string>
+    <string name="hello_my_world_of_kotlin">Hello my world of Kotlin!</string>
+</resources>
