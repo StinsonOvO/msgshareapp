@@ -1,9 +1,9 @@
-package com.ync.msgshareapp
+package com.ync.msgshareapp.activities
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.ync.msgshareapp.R
 import kotlinx.android.synthetic.main.activity_second.*
 
 class SecondActivity : AppCompatActivity() {

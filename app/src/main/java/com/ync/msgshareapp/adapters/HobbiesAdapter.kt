@@ -1,4 +1,4 @@
-package com.ync.msgshareapp
+package com.ync.msgshareapp.adapters
 
 import android.content.Context
 import android.content.Intent
@@ -7,9 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.ync.msgshareapp.models.Hobby
+import com.ync.msgshareapp.R
 import kotlinx.android.synthetic.main.list_item.view.*
 
-class HobbiesAdapter(val context: Context, val hobbies: List<Hobby>) :
+class HobbiesAdapter(val context: Context, private val hobbies: List<Hobby>) :
     RecyclerView.Adapter<HobbiesAdapter.MyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
